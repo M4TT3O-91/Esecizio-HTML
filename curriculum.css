@@ -5,7 +5,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
   border-radius: 10px;
-  border: 2px solid darkblue;
+  border: 2px solid black;
   overflow: auto;
 }
 
@@ -16,12 +16,18 @@
   float: left;
   padding: 10px;
 }
+
 #skills::after,
 #databases::after {
   content: "";
   display: block;
   width: 95%;
   border-bottom: 2px solid white;
+}
+
+#skills,
+#databases{
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 h1 {
