@@ -76,8 +76,8 @@ tr {
 }
 
 .mainContainer_rightColumn_descriptionContainer_table thead th:first-child {
-  border: 3px solid blue;
-  padding: 5px;
+  background: white;
+  border: none;
 }
 
 .mainContainer_rightColumn_descriptionContainer_table tbody tr:nth-child(odd) {
