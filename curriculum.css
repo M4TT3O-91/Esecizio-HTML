@@ -1,114 +1,130 @@
 .mainContainer {
-    display: flex;
-    flex-direction: row;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: row;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .mainContainer_leftColumn {
-    background-color: rgb(26, 90, 179);
-    width: 15%;
-    height: 100vh;
-    float: left;
-    padding: 10px;
+  background-color: rgb(26, 90, 179);
+  width: 15%;
+  height: 100vh;
+  float: left;
+  padding: 10px;
 }
 
 .mainContainer_rightColumn_head {
-    background-color: rgb(255, 149, 0);
-    padding: 10px;
+  background-color: #ee9b00;
+  padding: 10px;
 }
 
 mainContainer_leftColumn_head h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .mainContainer_leftColumn label,
 p {
-    color: black;
-    text-transform: capitalize;
-    font-size: medium;
-    font-weight: bold;
+  color: black;
+  text-transform: capitalize;
+  font-size: medium;
+  font-weight: bold;
 }
 
 .mainContainer_leftColumn ul {
-    font-size: medium;
-    font-weight: bold;
-    list-style-type: none;
+  font-size: medium;
+  font-weight: bold;
+  list-style-type: none;
 }
 
 .mainContainer_leftColumn li {
-    border-radius: 8px;
-    background-color: bisque;
-    padding: 1px;
-    text-align: center;
-    border: 2px solid black;
-    margin-top: 5px;
+  border-radius: 8px;
+  background-color: bisque;
+  padding: 1px;
+  text-align: center;
+  border: 2px solid black;
+  margin-top: 5px;
 }
 
 .mainContainer_rightColumn_descriptionContainer {
-    padding: 10px;
+  padding: 10px;
 }
 
-.mainContainer_rightColumn_descriptionContainer p{
-    font-size: small;
-    font-weight: 500;
+.mainContainer_rightColumn_descriptionContainer p {
+  font-size: small;
+  font-weight: 500;
 }
 
 .mainContainer_rightColumn {
-    width: 85%;
-    height: 100vh;  float: right;
+  width: 85%;
+  height: 100vh;
+  float: right;
 }
 
 .mainContainer_rightColumn_descriptionContainer_table {
-   border: 1px solid black;
-   width: 90%;
-   margin-left: auto;
-   margin-right: auto;
-   border-collapse: collapse;
+  border: 1px solid black;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
 }
 
-
-.mainContainer_rightColumn_descriptionContainer_table th,td,tr{
-   border: 1px solid black; 
-   padding: 5px;
+.mainContainer_rightColumn_descriptionContainer_table th,
+td,
+tr {
+  border: 1px solid black;
+  padding: 5px;
 }
 
-.mainContainer_rightColumn_descriptionContainer_table thead tr th:first-child, thead tr th:first-child{
-    background: white;
-    border: none;
- }
-
-.mainContainer_rightColumn_descriptionContainer_table tbody{
-   border: 1px solid black; 
+.mainContainer_rightColumn_descriptionContainer_table thead th:first-child {
+  border: 3px solid blue;
+  padding: 5px;
 }
 
-td:first-child{
-    font-weight: bold ;
+.mainContainer_rightColumn_descriptionContainer_table tbody tr:nth-child(odd) {
+  background: #0a9396;
 }
 
+.mainContainer_rightColumn_descriptionContainer_table tbody tr:nth-child(even) {
+  background: #94d2bd;
+}
 
+thead tr:first-child {
+  background: #005f73;
+}
 
+thead tr:nth-child(2) {
+  background: #ee9b00;
+}
+
+thead tr:first-child {
+  text-transform: uppercase;
+}
+
+td:first-child {
+  font-weight: bold;
+}
 
 .mainContainer_leftColumn_img {
-    border-radius: 60%;
-    height: auto;
-    width: 60%;
+  border-radius: 60%;
+  height: auto;
+  width: 60%;
 }
 
 .mailContacts,
 .phoneContacts {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    padding: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 5px;
 }
 
 .mailContacts svg,
 .phoneContacts svg {
-    padding-right: 5px;
-    padding-top: 2px;
+  padding-right: 5px;
+  padding-top: 2px;
 }
 
 .contactContainer {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
