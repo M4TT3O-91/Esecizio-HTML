@@ -47,20 +47,46 @@ p {
 .mainContainer_rightColumn_descriptionContainer {
     padding: 10px;
 }
+
 .mainContainer_rightColumn_descriptionContainer p{
     font-size: small;
     font-weight: 500;
 }
 
-
-
-
-
 .mainContainer_rightColumn {
     width: 85%;
-    height: 100vh;
-    float: right;
+    height: 100vh;  float: right;
 }
+
+.mainContainer_rightColumn_descriptionContainer_table {
+   border: 1px solid black;
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   border-collapse: collapse;
+}
+
+
+.mainContainer_rightColumn_descriptionContainer_table th,td,tr{
+   border: 1px solid black; 
+   padding: 5px;
+}
+
+.mainContainer_rightColumn_descriptionContainer_table thead tr th:first-child, thead tr th:first-child{
+    background: white;
+    border: none;
+ }
+
+.mainContainer_rightColumn_descriptionContainer_table tbody{
+   border: 1px solid black; 
+}
+
+td:first-child{
+    font-weight: bold ;
+}
+
+
+
 
 .mainContainer_leftColumn_img {
     border-radius: 60%;
